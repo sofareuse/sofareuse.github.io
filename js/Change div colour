@@ -1,0 +1,4 @@
+$(".Change_div_colour").click(function() {
+	$("div.tabInactive").removeClass("tabActive");
+	$(this).addClass("tabActive");
+});

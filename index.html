@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/clickable-div.js"></script>
+<script src="js/Change_div_color.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <style type="text/css">
 
@@ -18,7 +19,7 @@
 
 <div class="container-fluid">
     <div class="bs-example">
-        <nav role="navigation" class="navbar navbar-default">
+        <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
@@ -33,9 +34,9 @@
             <div id="navbarCollapse" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="About_Us.html">About Us</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
         </nav><!-- nav -->
@@ -53,7 +54,8 @@
     
         <div class="row-center">
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail" onclick="location.href='About_Us.html';">
+      <div class="tabInactive" onclick="this.thumbnail='tabActive'"></div>
+        <div class="thumbnail" onclick="location.href='aboutUs.html';">
             <div class="header">
                 <div class="wrapper center-text">
                     <h3><img style="width:25px;height:25px;" src="images/SOFA_ico.png" style="vertical-align:middle">
@@ -70,7 +72,7 @@
     
         <div class="row-center">
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail" onclick="location.href='About_Us.html';">
+        <div class="thumbnail" onclick="location.href='aboutUs.html';">
             <div class="header">
                 <div class="wrapper center-text">
                     <h3><img style="width:25px;height:25px;" src="images/SOFA_ico.png" style="vertical-align:middle">
@@ -87,7 +89,7 @@
     
         <div class="row-center">
       <div class="col-sm-6 col-md-4">
-        <div class="thumbnail" onclick="location.href='About_Us.html';">
+        <div class="thumbnail" onclick="location.href='aboutUs.html';">
             <div class="header">
                 <div class="wrapper center-text">
                     <h3><img style="width:25px;height:25px;" src="images/SOFA_ico.png" style="vertical-align:middle">
